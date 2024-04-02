@@ -70,7 +70,7 @@
     },{
         "_id": "008",
         "name": "Sailor Moon Cosplay",
-        "location": "sailor_moon_cosplay.jpg",
+        "location": "sailor_moon_cosplay.png",
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Anime",
@@ -89,7 +89,7 @@
     },{
         "_id": "010",
         "name": "Steampunk Cat",
-        "location": "Steampunk_cat.jpg",
+        "location": "Steampunk_cat.png",
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Cosplay",
@@ -108,7 +108,7 @@
     },{
         "_id": "012",
         "name": "Steampunk Octopus",
-        "location": "Octopus_Steampunk.jpg",
+        "location": "Octopus_Steampunk.png",
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Cosplay",

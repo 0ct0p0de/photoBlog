@@ -9,9 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 const filteredPhotos = data.photos.filter(photo => photo.tags.includes(selectedTag));
                 console.log("filteredPhotos contains; ",filteredPhotos.length);
 
-                const photosMat = document.querySelector('.photo-card-mat');
+                const tagName = document.querySelector('.tagName');
+                tagName.innerHTML = selectedTag;
 
-                // Clear existing content
+                
+                const photosMat = document.querySelector('.photo-card-mat');
                 photosMat.innerHTML = "";
                 filteredPhotos.forEach(photo => {
                     const photoCard = document.createElement("div");

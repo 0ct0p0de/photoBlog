@@ -425,7 +425,6 @@ Photo Mat
 .photo-card-wrapper{
   margin-inline: 2rem;
   margin-block: 1rem;
-  outline: green 2px solid;
   display: grid;
   justify-items: center;
   align-items: center;
@@ -433,17 +432,30 @@ Photo Mat
 
 .tagName{
   text-align: center;
+  font-weight: bolder;
+  color: var(--grey-100);
 }
 
 .photo-card-mat{
-  outline: yellow 2px solid;
+  background-color: var(--primary-900);
   display: flex;
-}
-
-.photo-card-mat img{
-  
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .photo-card{
-  outline: blue 2px solid;
+  background-color: var(--primary-900);
+  min-width: 155px;
+  max-width: 250px;
+  padding-top: 1rem;
+}
+
+.photo-card img{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.photo-card h5{
+  color: var(--primary-100);
+  text-align: center;
 }
