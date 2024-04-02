@@ -1,42 +1,45 @@
 document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const selectedTag = urlParams.get('tag');
-    const tagNameElement = document.getElementById('tagName');
 
     if (selectedTag) {
-        tagNameElement.textContent = selectedTag;
         fetch("json/photos.json")
             .then(response => response.json())
             .then(data => {
-                const filteredPhotos = data.recipes.filter(photo => photo.tags.includes(selectedTag));
+                const filteredPhotos = data.photos.filter(photo => photo.tags.includes(selectedTag));
+                console.log("filteredPhotos contains; ",filteredPhotos.length);
 
                 const photosMat = document.querySelector('.photo-card-mat');
 
                 // Clear existing content
                 photosMat.innerHTML = "";
-
                 filteredPhotos.forEach(photo => {
+                    const photoCard = document.createElement("div");
+                    photoCard.className = "photo-card";
+
                     const photoElement = document.createElement("a");
                     photoElement.href = `singlePhoto.html?slug=${photo._id}`;
                     photoElement.className = "photo";
 
                     const imgElement = document.createElement("img");
-                    imgElement.src = recipe.image;
-                    imgElement.alt = recipe.name;
-                    imgElement.className = "img recipe-img";
+                    imgLocation = "/img/photos/" + photo.location;
+                    imgElement.src = imgLocation;
+                    imgElement.alt = photo.name;
+                    imgElement.className = "img photo-img";
 
                     const h5Element = document.createElement("h5");
-                    h5Element.textContent = recipe.name;
+                    h5Element.textContent = photo.name;
 
                     const pElement = document.createElement("p");
-                    textString = `Prep: ${recipe.prepTime} | Cook: ${recipe.cookTime}`;
+                    textString = `  ${photo.description}` ;
                     pElement.textContent = textString;
 
-                    photoElement.appendChild(imgElement);
-                    photoElement.appendChild(h5Element);
-                    photoElement.appendChild(pElement);
+                    photoCard.appendChild(imgElement);
+                    photoCard.appendChild(h5Element);
+                    photoCard.appendChild(pElement);
 
-                    recipesList.appendChild(photoElement);
+                    photoCard.appendChild(photoElement)
+                    photosMat.appendChild(photoCard);
                 });
             })
             .catch(error => console.error("Error fetching recipes: ", error));
@@ -44,3 +47,4 @@ document.addEventListener("DOMContentLoaded", function () {
         console.error("Tag not provided in the URL.");
     }
 });
+

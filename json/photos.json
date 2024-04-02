@@ -4,6 +4,7 @@
         "_id": "001",
         "name": "Elven Maiden",
         "location" : "anime_elf_girl.png",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Fantasy",
             "Anime",
@@ -13,6 +14,7 @@
         "_id": "002",
         "name": "Cara",
         "location": "cara.png",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Fantasy",
             "Photo-Realistic",
@@ -23,6 +25,7 @@
         "_id": "003",
         "name": "German Woman",
         "location": "german_girl_in_field_1.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Photo-Realistic",
             "Grass Field"
@@ -31,6 +34,7 @@
         "_id": "004",
         "name": "German Girl",
         "location": "german_girl_in_field.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Photo-Realistic",
             "Grass Field"
@@ -39,6 +43,7 @@
         "_id": "005",
         "name": "Anime London Buisnessman",
         "location": "London_buisnessman_anime.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "City Background",
             "Anime",
@@ -48,6 +53,7 @@
         "_id": "006",
         "name": "Red Dress",
         "location": "Red_moonlight_1.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "City Background",
             "Drawn"
@@ -56,6 +62,7 @@
         "_id": "007",
         "name": "Red Dress 2",
         "location": "Red_moonlight.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "City Background",
             "Drawn"
@@ -64,6 +71,7 @@
         "_id": "008",
         "name": "Sailor Moon Cosplay",
         "location": "sailor_moon_cosplay.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Anime",
             "Photo-Realistic"
@@ -72,6 +80,7 @@
         "_id": "009",
         "name": "Scottish Shepherd",
         "location": "Scottish_shepherdess.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Grass Field",
             "Anime",
@@ -81,6 +90,7 @@
         "_id": "010",
         "name": "Steampunk Cat",
         "location": "Steampunk_cat.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Cosplay",
             "Steampunk",
@@ -89,6 +99,7 @@
     },{
         "_id": "011",
         "name": "Cliffside During A Storm",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "location": "stormy_cliff.jpg",
         "tags" : [
             "Grass Field",
@@ -98,6 +109,7 @@
         "_id": "012",
         "name": "Steampunk Octopus",
         "location": "Octopus_Steampunk.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
         "tags" : [
             "Cosplay",
             "Steampunk",

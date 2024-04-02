@@ -121,6 +121,9 @@ small,
 a {
   text-decoration: none;
 }
+
+
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -289,15 +292,19 @@ Headers
 
 /*
 =============== 
-
+Main
 ===============
 */
-.main-content-area {
-  padding: 0% 2% 2% 2% ;
 
+a:link{
+  color: var(--primary-400);
 }
 
-p {
+a:visited{
+  color: var(--primary-700)
+}
+
+.main-content-area p {
   padding-inline: 5%;
   background-color: var(--primary-900);
   color: var(--primary-400);
@@ -323,9 +330,27 @@ Photo Tags
 ===============
 */
 
-.photo-viewer {
-  display: flex;  
+.photo-tags-wrapper{
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  border: 2px solid var(--primary-900);
+  border-left: 40px solid var(--primary-900);
+  color: var(--primary-400);
+  font-size: small;
+  display: inline-block;
 }
+
+.photo-tags-wrapper h4{
+  font-size: 2rem;
+  color: var(--primary-400);
+  position: absolute;
+  top: 5rem;
+  left: -3.5rem;
+  transform: rotate(270deg);
+}
+
+
 
 .photo-tags-table{
   display: flex;
@@ -366,12 +391,16 @@ Photo Tags
 }
 
 
-.photo-tags-list{
-  width: 20vw;
-}
-
 
 @media screen and (max-width:600px) {
+
+  .photo-tags-wrapper{
+    display: grid;
+  }
+
+  .photo-tags-wrapper h4{
+    text-align: center;
+  }
 
   .tag{
     width: 8rem;
@@ -385,7 +414,7 @@ Photo Tags
     font-size: smaller;
   }
   
-}
+} 
 
 /*
 =============== 
@@ -393,13 +422,28 @@ Photo Mat
 ===============
 */
 
-.photo-card-mat{
+.photo-card-wrapper{
+  margin-inline: 2rem;
+  margin-block: 1rem;
   outline: green 2px solid;
-  display: flex;
+  display: grid;
   justify-items: center;
   align-items: center;
 }
 
 .tagName{
-  outline: red 2px solid;
+  text-align: center;
+}
+
+.photo-card-mat{
+  outline: yellow 2px solid;
+  display: flex;
+}
+
+.photo-card-mat img{
+  
+}
+
+.photo-card{
+  outline: blue 2px solid;
 }
