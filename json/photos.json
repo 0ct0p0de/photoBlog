@@ -4,7 +4,7 @@
         "_id": "001",
         "name": "Elven Maiden",
         "location" : "anime_elf_girl.png",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "Digital art of an elven fantasy charcter drawn anime style.",
         "tags" : [
             "Fantasy",
             "Anime",
@@ -14,7 +14,7 @@
         "_id": "002",
         "name": "Cara",
         "location": "cara.png",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "Image of a woman with long blond hair, wearing a red leather outfit with a long knife. She is standing in a wood, looking to the side.",
         "tags" : [
             "Fantasy",
             "Photo-Realistic",
@@ -25,7 +25,7 @@
         "_id": "003",
         "name": "German Woman",
         "location": "german_girl_in_field_1.jpg",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "A German woman stands in a field, a forest in the background.",
         "tags" : [
             "Photo-Realistic",
             "Grass Field"
@@ -34,7 +34,7 @@
         "_id": "004",
         "name": "German Girl",
         "location": "german_girl_in_field.jpg",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "A German girl stands in a field, a forest in the background.",
         "tags" : [
             "Photo-Realistic",
             "Grass Field"
@@ -43,7 +43,7 @@
         "_id": "005",
         "name": "Anime London Buisnessman",
         "location": "London_buisnessman_anime.jpg",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "Digital art of an anime protagonist, wearing a suit, walking down the street at night during the rain.",
         "tags" : [
             "City Background",
             "Anime",
@@ -53,25 +53,27 @@
         "_id": "006",
         "name": "Red Dress",
         "location": "Red_moonlight_1.jpg",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "A stylistic digital painting of a blonde woman in a flowing red dress, walking down a main street, during a full moon. (1 of 2)",
         "tags" : [
             "City Background",
+            "Red Costume",
             "Drawn"
         ]
     },{
         "_id": "007",
         "name": "Red Dress 2",
         "location": "Red_moonlight.jpg",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "A stylistic digital painting of a blonde woman in a flowing red dress, walking down a main street, during a full moon. (2 of 2)",
         "tags" : [
             "City Background",
+            "Red Costume",
             "Drawn"
         ]
     },{
         "_id": "008",
         "name": "Sailor Moon Cosplay",
         "location": "sailor_moon_cosplay.png",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "A vanity headshot of a young woman dresses in Sailor Moon Cosplay",
         "tags" : [
             "Anime",
             "Photo-Realistic"
@@ -80,7 +82,7 @@
         "_id": "009",
         "name": "Scottish Shepherd",
         "location": "Scottish_shepherdess.jpg",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "Digital painting of a Scottish shepherd standing with her sheep in field.",
         "tags" : [
             "Grass Field",
             "Anime",
@@ -90,7 +92,7 @@
         "_id": "010",
         "name": "Steampunk Cat",
         "location": "Steampunk_cat.png",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "Digital painting of a black cat with blue eyes; standing upright and wearing steampunk fashion.",
         "tags" : [
             "Cosplay",
             "Steampunk",
@@ -99,7 +101,7 @@
     },{
         "_id": "011",
         "name": "Cliffside During A Storm",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "A photo of a seaside cliff, a storm is seen looming in the background. ",
         "location": "stormy_cliff.jpg",
         "tags" : [
             "Grass Field",
@@ -109,7 +111,7 @@
         "_id": "012",
         "name": "Steampunk Octopus",
         "location": "Octopus_Steampunk.png",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores esse fuga fugiat dolorem ea.",
+        "description" : "Digital art of an octopus wearing steampunk fashion.",
         "tags" : [
             "Cosplay",
             "Steampunk",

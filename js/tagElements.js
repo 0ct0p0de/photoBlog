@@ -1,3 +1,5 @@
+//Creates 
+
 document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const selectedTag = urlParams.get('tag');
@@ -7,8 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(response => response.json())
             .then(data => {
                 const filteredPhotos = data.photos.filter(photo => photo.tags.includes(selectedTag));
-                console.log("filteredPhotos contains; ",filteredPhotos.length);
-
+                
                 const tagName = document.querySelector('.tagName');
                 tagName.innerHTML = selectedTag;
 
@@ -36,7 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     textString = `  ${photo.description}` ;
                     pElement.textContent = textString;
 
-                    photoCard.appendChild(imgElement);
+                    photoElement.appendChild(imgElement)
+                    photoCard.appendChild(photoElement);
                     photoCard.appendChild(h5Element);
                     photoCard.appendChild(pElement);
 

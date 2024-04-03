@@ -1,3 +1,5 @@
+//Creates the Tags list and counts for the tags table
+
 document.addEventListener("DOMContentLoaded", function () {
     fetch("json/photos.json")
         .then(response => response.json())
